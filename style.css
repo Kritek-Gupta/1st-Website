@@ -1,0 +1,37 @@
+body {
+    background-color: lavender;
+  }
+  hr
+  {
+    
+    border-style: dotted none none;
+    border-color: darkgray;
+    border-width: 4px;
+    
+    width: 5%
+  }
+  /* Applying background color on a class */ 
+  
+  h3 {
+    color: #205295;
+  }
+
+  #firstid
+  {
+    color: purple;
+  }
+  /* id has more priority than class */
+  #secondid
+  {
+    color: #61BFBF;
+  }
+  .firstclass 
+  {
+    color: red;
+  }
+  
+  /* pseudo class */
+  img:hover
+  {
+    background-color: lightcoral;
+  }
